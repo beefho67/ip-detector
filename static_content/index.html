@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>IP Detectors</title>
+    <script src="js/jquery-3.1.0.js"></script>
+    
+</head>
+
+<body>
+    <table border="0">
+        <tr>
+        <td>Your IP:</td>
+        <td><div id="yourip"></div></td>
+        <td></td>
+        <td>Remote IP:</td>
+        <td><div id="remoteip"></div></td>
+        </tr>
+        <tr><td><div id="content"></div></td></tr>
+    </table>
+    <img src="aws.jpg">
+    <script>
+        //When the page has loaded.
+        $( document ).ready(function(){
+            //Perform Ajax request.
+            $.ajax({
+                url: 'https://171nk3xfcb.execute-api.ap-northeast-1.amazonaws.com/prod/detectip',
+                headers: {
+                    'Authorization': 'allow'
+                },
+                success: function(data){
+                    console.log(data.yourIp);
+                    $('#yourip').html(data.yourIp);
+                    $('#remoteip').html(data.remoteAddress);
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    var errorMsg = 'Ajax request failed: ' + xhr.responseText;
+                    $('#content').html(errorMsg);
+                  }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,301 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Metadata": {
+        "AWS::CloudFormation::Designer": {
+            "21f4cf60-4ea3-4f88-bff4-e19a2c28d400": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -50,
+                    "y": 90
+                },
+                "z": 0,
+                "embeds": [],
+                "dependson": [
+                    "117ffca6-0582-4150-b26d-56eddee960bc"
+                ]
+            },
+            "117ffca6-0582-4150-b26d-56eddee960bc": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -150,
+                    "y": 90
+                },
+                "z": 0,
+                "embeds": []
+            },
+            "bbb59e24-1809-4319-bd7f-c48130b7607a": {
+                "size": {
+                    "width": 400,
+                    "height": 230
+                },
+                "position": {
+                    "x": 70,
+                    "y": 140
+                },
+                "z": 0,
+                "embeds": [
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5"
+                ],
+                "dependson": [
+                    "21f4cf60-4ea3-4f88-bff4-e19a2c28d400"
+                ]
+            },
+            "a174bc7a-201b-47a9-af8b-3f99a9578ec5": {
+                "size": {
+                    "width": 140,
+                    "height": 140
+                },
+                "position": {
+                    "x": 100,
+                    "y": 180
+                },
+                "z": 1,
+                "parent": "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                "embeds": [
+                    "443054c5-00f1-4b38-a42a-66e538054030"
+                ],
+                "iscontainedinside": [
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a"
+                ]
+            },
+            "443054c5-00f1-4b38-a42a-66e538054030": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": 150,
+                    "y": 220
+                },
+                "z": 2,
+                "parent": "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                "embeds": [],
+                "iscontainedinside": [
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5",
+                    "a174bc7a-201b-47a9-af8b-3f99a9578ec5"
+                ]
+            },
+            "af2d816d-f5cb-4fdf-be77-ec0dc7dab8f6": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -170,
+                    "y": 260
+                },
+                "z": 0,
+                "embeds": [],
+                "iscontainedinside": [
+                    "bbb59e24-1809-4319-bd7f-c48130b7607a"
+                ],
+                "dependson": [
+                    "443054c5-00f1-4b38-a42a-66e538054030"
+                ]
+            },
+            "66b85df7-2106-41c9-975d-22cef79ebed9": {
+                "size": {
+                    "width": 60,
+                    "height": 60
+                },
+                "position": {
+                    "x": -319.3113196319333,
+                    "y": 225.04668854600683
+                },
+                "z": 0,
+                "embeds": [],
+                "isassociatedwith": [
+                    "21f4cf60-4ea3-4f88-bff4-e19a2c28d400"
+                ]
+            }
+        }
+    },
+    "Resources": {
+        "LF56MGC": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Code": {
+                    "S3Bucket": "cloudformation-yichan-ho",
+                    "S3Key": "lambda-java-example-1.0.0-SNAPSHOT.jar"
+                },
+                "Description": "IpDetector created from cloudformation",
+                "FunctionName": "ipDetectorCloudformation",
+                "Handler": "example.IpDetectorLambdaHandler::handleRequest",
+                "Role": "arn:aws:iam::177683156638:role/IpDetectorLambda",
+                "Runtime": "java8"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "21f4cf60-4ea3-4f88-bff4-e19a2c28d400"
+                }
+            },
+            "DependsOn": [
+                "LFKCWL"
+            ]
+        },
+        "LFKCWL": {
+            "Type": "AWS::Lambda::Function",
+            "Properties": {
+                "Code": {
+                    "S3Bucket": "cloudformation-yichan-ho",
+                    "S3Key": "lambda-java-example-token-authorizer-1.0.0-SNAPSHOT.jar"
+                },
+                "Description": "tokenAuthorizer created from cloudformation",
+                "FunctionName": "tokenAuthorizerCloudformation",
+                "Handler": "example.APIGatewayAuthorizerHandler::handleRequest",
+                "Role": "arn:aws:iam::177683156638:role/IpDetectorLambda",
+                "Runtime": "java8"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "117ffca6-0582-4150-b26d-56eddee960bc"
+                }
+            }
+        },
+        "AGRAOTSY": {
+            "Type": "AWS::ApiGateway::RestApi",
+            "Properties": {
+                "Description": "API Gateway created from CloudFormatioin",
+                "Name": "IpDetectorCloudFormatioin"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "bbb59e24-1809-4319-bd7f-c48130b7607a"
+                }
+            },
+            "DependsOn": [
+                "LF56MGC"
+            ]
+        },
+        "AGR3DLHV": {
+            "Type": "AWS::ApiGateway::Resource",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "AGRAOTSY"
+                },
+                "ParentId": {
+                    "Fn::GetAtt": [
+                        "AGRAOTSY",
+                        "RootResourceId"
+                    ]
+                },
+                "PathPart": "detectip"
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "a174bc7a-201b-47a9-af8b-3f99a9578ec5"
+                }
+            }
+        },
+        "AGM222G8": {
+            "Type": "AWS::ApiGateway::Method",
+            "Properties": {
+                "RestApiId": {
+                    "Ref": "AGRAOTSY"
+                },
+                "ResourceId": {
+                    "Ref": "AGR3DLHV"
+                },
+                "HttpMethod": "GET",
+                "AuthorizationType": "NONE",
+                "Integration": {
+                    "IntegrationHttpMethod": "GET",
+                    "Type": "AWS_PROXY",
+                    "Uri": "arn:aws:apigateway:ap-northeast-1:lambda:path/2015-03-31/functions/arn:aws:lambda:ap-northeast-1:177683156638:function:ipDetectorCloudformation/invocations"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "443054c5-00f1-4b38-a42a-66e538054030"
+                }
+            }
+        },
+        "AGD2CQ8V": {
+            "Type": "AWS::ApiGateway::Deployment",
+            "Properties": {
+                "StageName": "Prod",
+                "RestApiId": {
+                    "Ref": "AGRAOTSY"
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "af2d816d-f5cb-4fdf-be77-ec0dc7dab8f6"
+                }
+            },
+            "DependsOn": [
+                "AGM222G8"
+            ]
+        },
+        "LP5AMTI": {
+            "Type": "AWS::Lambda::Permission",
+            "Properties": {
+                "FunctionName": {
+                    "Ref": "LF56MGC"
+                },
+                "Action": "lambda:InvokeFunction",
+                "Principal": "apigateway.amazonaws.com",
+                "SourceArn": {
+                    "Fn::Join": [
+                        "",
+                        [
+                            "arn:aws:execute-api:ap-northeast-1:177683156638",
+                            ":",
+                            {
+                                "Ref": "AGRAOTSY"
+                            },
+                            "/*/GET/detectip"
+                        ]
+                    ]
+                }
+            },
+            "Metadata": {
+                "AWS::CloudFormation::Designer": {
+                    "id": "66b85df7-2106-41c9-975d-22cef79ebed9"
+                }
+            }
+        }
+    }
+}
